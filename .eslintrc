@@ -1,0 +1,39 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "plugin:flowtype/recommended"
+    ],
+    "plugins": [
+        "flowtype"
+    ],
+    parserOptions: {
+        "sourceType": "module",
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "blockBindings": true,
+            "forOf": true,
+            "classes": true,
+            "modules": true,
+            "defaultParams" : true,
+            "superInFunctions" : true,
+            "templateString" : true,
+            "jsx" : true,
+            "accessor-pairs" : true, 
+            "no-fallthrough" : true,
+            "no-invalid-this" : true,
+            "prefer-template" : true,
+            "arrow-body-style" : true,
+            "object-curly-spacing" : true, 
+            "arrow-parens" : true,
+            "prefer-arrow-callback": 2,
+            "valid-jsdoc",
+             "object-shorthand": ["error", "always"]
+        }
+    },
+    "env" : {
+        "es6": true
+    },
+    "rules": {
+        "semi": 2
+    }
+}
